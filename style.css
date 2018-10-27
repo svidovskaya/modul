@@ -1,0 +1,48 @@
+.red, .blue, .green{
+    height: 65px;
+    width: 65px;
+    position: relative;
+}
+.red{
+    background: red;
+}
+.blue{
+    background:blue;
+    top:-15px;
+    left: 15px;
+}
+.green{
+    background: green;
+    top:-30px;
+    left: 30px;
+}
+.k1, .k2, .k3{
+    height: 65px;
+    width: 65px;
+    display: inline-block;
+    background: yellow;
+    margin: -3px;
+    border: 1px solid black;
+}
+.z_3{
+    background: grey;
+    display: inline-block;
+    padding: 15px;
+}
+
+.z_4{
+    margin: 45px;
+}
+.kv_1{
+    height: 65px;
+    width: 65px;
+    background: violet;
+    display: inline-block;
+}
+
+@media (orientation: ) {
+    .kv_1{
+        border-radius: 55%;
+    }
+    
+}
